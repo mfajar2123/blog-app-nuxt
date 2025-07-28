@@ -23,7 +23,8 @@ const { data: posts } = await useAsyncData(() => {
         >
           {{ post.title }}
         </nuxt-link>
-        <p class="text-gray-600 mt-2">{{ post.description }}</p>
+        <p class="text-gray-600 mt-2 text-base">{{ post.description }}</p>
+        <p class="text-gray-600 mt-2 text-xs">{{ post.date }}</p>
       </article>
     </div>
   </section>
