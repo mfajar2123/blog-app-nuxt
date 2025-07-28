@@ -8,18 +8,23 @@ const { data: posts } = await useAsyncData(() => {
 </script>
 
 <template>
-  <div>
-    <h1>Blog</h1>
-    <p
-      v-for="post in posts"
-      :key="post.id"
-    >
-      >
-      <nuxt-link :to="post.path">
-        <strong>{{ post.title }}</strong>
-      </nuxt-link>
+  <section class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold mb-8 text-gray-800">Blog</h1>
 
-      &nbsp;{{ post.description }}
-    </p>
-  </div>
+    <div class="space-y-6">
+      <article
+        v-for="post in posts"
+        :key="post.id"
+        class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow bg-white"
+      >
+        <nuxt-link
+          :to="post.path"
+          class="text-xl font-semibold text-blue-600 hover:underline"
+        >
+          {{ post.title }}
+        </nuxt-link>
+        <p class="text-gray-600 mt-2">{{ post.description }}</p>
+      </article>
+    </div>
+  </section>
 </template>

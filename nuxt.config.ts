@@ -3,6 +3,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
+    '@nuxtjs/tailwindcss'
   ],
    nitro: {
     preset: 'netlify-edge', // or 'netlify' instead of 'netlify-legacy'
