@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
   ],
-  nitro: {
-    preset: 'netlify' // ganti dari 'netlify-legacy' ke 'netlify'
+   nitro: {
+    preset: 'netlify-edge', // or 'netlify' instead of 'netlify-legacy'
   },
   devtools: { enabled: true },
   future: {
