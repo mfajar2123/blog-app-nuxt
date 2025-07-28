@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-content-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "dev:prepare": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "latest",
+    "better-sqlite3": "^12.2.0",
+    "nuxt": "^3.17.6"
+  }
+}
