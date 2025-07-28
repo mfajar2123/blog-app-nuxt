@@ -3,11 +3,9 @@ title: AI Pacu Transformasi Pelayaran Makin Efisien dan Aman
 date: 2025-07-28T15:05:00.000+07:00
 description: AI Pacu Transformasi Pelayaran Makin Efisien dan Aman
 ---
-
-
 ![](/img/250717204659-542.jpg "Sumber foto: https://genpop.republika.co.id/posts/693381/ai-pacu-transformasi-pelayaran-makin-efisien-dan-aman")
 
-
+Sumber foto: *<https://genpop.republika.co.id/posts/693381/ai-pacu-transformasi-pelayaran-makin-efisien-dan-aman>*
 
 JAKARTA — Teknologi kecerdasan buatan (AI) diproyeksi akan memegang peranan yang semakin penting dalam industri pelayaran. Penerapannya akan mencakup berbagai aspek, mulai dari optimalisasi operasional, peningkatan layanan, efisiensi biaya, hingga penguatan pengawasan dan dukungan terhadap keselamatan serta keberlanjutan. Karena itu, kehadiran AI diyakini akan mampu menjawab beragam tantangan besar yang selama ini dihadapi sektor pelayaran.
 
