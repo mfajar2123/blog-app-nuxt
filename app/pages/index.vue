@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const { data: posts } = await useAsyncData(() => {
   return queryCollection('blog')
-    .select('title', 'excerpt', 'cover_image', 'path', 'id', 'date', 'author', 'category')
+    .select('title', 'excerpt', 'description', 'cover_image', 'path', 'id', 'date', 'author', 'category')
     .order('date', 'DESC')
     .all()
 })
@@ -40,7 +40,7 @@ console.log(tes.value)
             {{ post.title }}
           </nuxt-link>
           <p class="text-gray-600 mt-2 text-base">
-            {{ post.excerpt }}
+            {{ post.excerpt || post.description || 'Tidak ada ringkasan tersedia.' }}
           </p>
           <div class="mt-4 text-sm text-gray-500 flex justify-between items-center flex-wrap gap-2">
             <span>{{ new Date(post.date).toLocaleDateString() }}</span>
