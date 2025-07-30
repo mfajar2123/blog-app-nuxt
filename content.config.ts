@@ -9,7 +9,6 @@ export default defineContentConfig({
       source: 'blog/**',
       schema: z.object({
         title: z.string(),
-        excerpt: z.string().optional(),
         excerpt2: z.string().optional(),
         cover_image: z.string().optional(),
         date: z.string(),
