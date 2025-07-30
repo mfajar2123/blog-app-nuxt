@@ -2,13 +2,12 @@
 title: AI Pacu Transformasi Pelayaran Makin Efisien dan Aman
 excerpt2: JAKARTA — Teknologi kecerdasan buatan (AI) diproyeksi akan memegang
   peranan yang semakin penti...
-cover_image: /img/1752763591_dbd680ff69c6367515d0.jpg
+cover_image: /img/250717204659-542.jpg
 date: 2025-07-30T14:10:00.000+07:00
 author: ADMIN
 category: news
 ---
-![](/img/1752763591_dbd680ff69c6367515d0.jpg)
-
+![](/img/250717204659-542.jpg)
 
 
 
