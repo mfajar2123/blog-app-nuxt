@@ -1,7 +1,12 @@
 ---
 title: Mount Everest
 description: Mount Everest, the tallest mountain in the world
-date: 2024-10-11
+excerpt: Mount Everest, the tallest mountain in the world, stands at an
+  impressive 8,848.8
+cover_image: /img/250717204659-542.jpg
+date: 2025-07-30T11:42:00.000+07:00
+author: ADMIN
+category: article
 ---
 
 Mount Everest, the tallest mountain in the world, stands at an impressive 8,848.86 meters (29,031.7 feet) above sea level. Located in the Himalayas on the border between Nepal and the Tibet Autonomous Region of China, it is part of the greater Mahalangur Himal range. Everest attracts climbers from all over the world, including highly skilled mountaineers as well as capable climbers attempting to reach the summit with the help of professional guides. Despite its allure, Everest's extreme altitude, unpredictable weather, and challenging terrain make it a dangerous climb. Many people have lost their lives in pursuit of reaching the summit.
