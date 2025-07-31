@@ -23,7 +23,7 @@ const getCategoryName = (id: number) => {
   <section class="max-w-6xl mx-auto px-4 py-12">
     <h1 class="text-3xl font-bold mb-8 text-gray-800">Brochure</h1>
 
-    <div class="grid md:grid-cols-2 gap-8">
+    <div class="grid md:grid-cols-3 gap-8">
       <article
         v-for="item in brochures"
         :key="item._id || item.url"
