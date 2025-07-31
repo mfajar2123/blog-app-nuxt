@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master 
+  branch: master
 
 media_folder: public/img
 public_folder: /img
@@ -13,7 +13,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt2", widget: "string" }
@@ -25,3 +25,24 @@ collections:
         name: "category"
         widget: "select"
         options: ["news", "article"]
+
+  - name: "brochure"
+    label: "Brochure"
+    folder: "content/brochure"
+    format: "json"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: product
+    fields:
+      - { label: "Product", name: "product", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Cover Image", name: "cover_image", widget: "image" }
+      - label: "Category"
+        name: "cat"
+        widget: "select"
+        options:
+          - { label: "Internet of Things", value: 1 }
+          - { label: "Artificial Intelligence", value: 2 }
+          - { label: "Others", value: 3 }

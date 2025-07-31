@@ -11,7 +11,7 @@ const { data: post } = await useAsyncData(pageId, () => {
 
 <template>
   <section class="max-w-3xl mx-auto px-4 py-12">
-    <nuxt-link to="/" class="text-sm text-blue-600 hover:underline mb-6 inline-block">
+    <nuxt-link to="/blog" class="text-sm text-blue-600 hover:underline mb-6 inline-block">
       « Back
     </nuxt-link>
 

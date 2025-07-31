@@ -8,6 +8,9 @@ export default defineNuxtConfig({
    nitro: {
     preset: 'netlify-edge', // or 'netlify' instead of 'netlify-legacy'
   },
+  typescript: {
+    typeCheck: false
+  },
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,

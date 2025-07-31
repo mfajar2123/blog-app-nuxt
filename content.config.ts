@@ -1,7 +1,5 @@
 import { defineCollection, defineContentConfig, z } from '@nuxt/content'
 
-console.log('Content config loaded') // <- tambahkan ini
-
 export default defineContentConfig({
   collections: {
     blog: defineCollection({
@@ -14,6 +12,19 @@ export default defineContentConfig({
         date: z.string(),
         author: z.string().optional(),
         category: z.enum(['news', 'article']).optional(),
+      }),
+    }),
+
+    brochure: defineCollection({
+      type: 'data',
+      source: 'brochure/**',
+      schema: z.object({
+        product: z.string(),
+        title: z.string(),
+        excerpt: z.string(),
+        url: z.string().url(),
+        cover_image: z.string(),
+        cat: z.number().int().optional(),
       }),
     }),
   },
